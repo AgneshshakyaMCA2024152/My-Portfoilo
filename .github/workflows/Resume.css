@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.main{
+    display: flex;
+}
+#header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    height: 134px;
+    background: #081b29;
+    margin-left: 18%;
+    color: white;
+    border-bottom: 3px solid black;
+}
+#header h1{ 
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px; 
+    font-size: 35px;
+    
+}
+#header h3{ 
+    text-align: center;
+    margin-left: 50px;
+    font-size: 25px;
+}
+#header img{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    float: left;
+    margin-left:20px;
+    border-radius: 80px;
+   
+}
+ #contact{
+    position: relative;
+    width:  284px;
+    height: 800px;
+    background-color: #081b29;
+    margin-left: 18%;
+    color: white;
+    border-right: 2px solid black ;
+    border-bottom: 2px solid black ;
+}
+#profile{
+   
+    width: 566px;
+    height: 800px;
+    background-color:  white;
+    color: black;
+    border-right: 2px solid black ;
+    border-bottom: 2px solid black ;
+}
+#myprofile h1{
+    font-size: 30px;
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#myprofile p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight:700;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+#contact h1{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+#icon{
+    margin-top: 0;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#icon a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 30px;
+    height: 35px;
+    background: transparent;
+    border:  2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-bottom: 10px;
+    overflow: hidden;
+    
+} 
+#education{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#education h1{
+    margin-left: 0;
+}
+#list{
+    margin-top: 20px;
+}
+#list ul {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 20px; /* Ensure there's some padding for the bullets */
+    list-style-type: none; /* Remove the default bullet */
+}
+
+#list li {
+    position: relative;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+#list li::before {
+    content: "•"; /* Unicode character for bullet (dot) */
+    position: absolute;
+    left: -10px; /* Position the bullet to the left of the text */
+    font-size: 20px; /* Size of the bullet */
+    color: white; 
+}
+hr{
+    margin-top: 10px;
+    height: 2px;
+}
+#Hobby h1{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+#skill h1{
+    font-size: 30px;
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#skill ul {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight:bolder;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-left: 20px; /* Ensure there's some padding for the bullets */
+    list-style-type: none; /* Remove the default bullet */
+}
+
+#skill li {
+    position: relative;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+#skill li::before {
+    content: "•"; /* Unicode character for bullet (dot) */
+    position: absolute;
+    left: -10px; /* Position the bullet to the left of the text */
+    font-size: 20px; /* Size of the bullet */
+    color: black; 
+}
+#download {
+    position: absolute;
+    top: 20px;  /* Adjust as per your requirement */
+    right: 20px;  /* Adjust as per your requirement */
+    font-size: 30px;
+    text-align: center;  /* Center the text under the icon */
+}
+
+#download a {
+    text-decoration: none;
+    color: #081b29;
+}
+
+#download p {
+    font-size: 20px; 
+    font-weight: bold; /* Adjust text size */
+    color: #081b29;  /* Set the color of the text */
+    margin-top: 5px;  /* Add some space between the icon and the text */
+}
